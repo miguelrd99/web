@@ -1,0 +1,5 @@
+NIPAGCOM;POLIZAS;Nombre;Producto;Fecha_Inicio;Fecha_Fin;Tier;Rating
+12345678A;101;Juan PÃ©rez;Seguro de Vida;2023-01-01;2024-01-01;1;Platino
+23456789B;102;Ana GÃ³mez;Seguro de Hogar;2023-02-01;2024-02-01;5;Oro
+34567890C;103;Luis FernÃ¡ndez;Seguro de Auto;2023-03-01;2024-03-01;3;Plata
+45678901D;104;Marta LÃ³pez;Seguro de Salud;2023-04-01;2024-04-01;9;Bronce +
