@@ -4,7 +4,7 @@ import io
 
 # Cargar el DataFrame desde el archivo CSV con manejo de errores
 try:
-    ruta_csv = "BBDD_POLIZAS_utf8.csv"
+    ruta_csv = "BBDD_POLIZAS_prueba.csv"
     df = pl.read_csv(ruta_csv, separator=';')
     df = df.with_columns(
         pl.col('POLIZAS').cast(pl.Int64).cast(pl.Utf8).fill_null('').alias('Número_Poliza')
