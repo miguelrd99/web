@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#d33682"  
+backgroundColor="#064681"  # Azul BBVA Allianz para el fondo principal
+secondaryBackgroundColor="#2398ce"  # Azul claro para el fondo secundario, proporcionando contraste
+textColor="#ffffff"  # Texto blanco para asegurar legibilidad sobre los fondos azules
+font="sans serif"
