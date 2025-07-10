@@ -2,6 +2,9 @@ import streamlit as st
 import polars as pl
 import io
 
+st.subheader("Tema aplicado:")
+st.json(st.get_option("theme"))
+
 # Cargar el DataFrame desde el archivo CSV con manejo de errores
 try:
     ruta_csv = "BBDD_POLIZAS_prueba.csv"
