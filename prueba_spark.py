@@ -2,8 +2,6 @@ import streamlit as st
 import polars as pl
 import io
 
-st.subheader("Tema aplicado:")
-st.json(st.get_option("theme"))
 
 # Cargar el DataFrame desde el archivo CSV con manejo de errores
 try:
@@ -25,6 +23,10 @@ seleccion_pagina = st.sidebar.radio("Ir a", ("Buscar por DNI", "Consulta por Pó
 # Página para buscar por DNI
 if seleccion_pagina == "Buscar por DNI":
     st.title("Consulta de Pólizas por DNI")
+
+    st.subheader("Tema aplicado:")
+    st.json(st.get_option("theme"))
+
     st.markdown("Ingrese el DNI del cliente para buscar sus pólizas. Ejemplo: 12345678A")
 
     # Entrada de usuario para el DNI
